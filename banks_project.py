@@ -128,7 +128,3 @@ conn.close()
 log_progress('Querying Process Complete.')
 
 
-#for row in rows[1:]:: This is a for loop that iterates over each row in the rows list, starting from the second row (index 1) and continuing to the end. The [1:] slicing syntax is used to exclude the first row, as it usually contains header information and not the actual data.
-#cols = row.find_all('td'): Within each iteration of the loop, the code finds all <td> (table data) elements within the current row (row) using the find_all() method of the BeautifulSoup library. This returns a list of <td> elements representing the columns of the current row.
-#if len(cols) == 3:: This conditional statement checks if the length of the cols list is equal to 3. This condition ensures that the current row has exactly three columns (table data elements). It's commonly used to filter out rows that don't match the expected structure of the table. If the condition is true, it means that the row contains the expected number of columns, and the subsequent code inside the conditional block will be executed.
-#In summary, this code snippet loops through each row of a table, excluding the header row, and checks if the current row has exactly three columns. This filtering step helps ensure that only rows with the expected structure are processed further, while ignoring any header rows or rows with incorrect formatting.
