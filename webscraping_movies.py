@@ -1,4 +1,4 @@
-#python3.11 -m pip install pandascd .spyder
+#python3.11 -m pip install pandas
 #python3.11 -m pip install bs4
 
 import requests
